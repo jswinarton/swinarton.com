@@ -1,0 +1,49 @@
+html {
+    background-color:#52ccbe;
+    color:#edfffd;
+    font-family: 'Akkurat', Helvetica, sans-serif;
+    font-size:10px;
+}
+
+p.summary {
+    font-size:3.25rem; /* 52px */
+    line-height:3.5rem;
+}
+
+div.container {
+    margin:15vh 5% 0;
+}
+
+div.big-button {
+    background-color:#edfffd;
+    border-radius:0.5rem;
+    box-shadow:0.375rem 0.375rem 0 -1px rgba(52,128,118,1);
+    color:#52ccbe;
+    display:inline-block;
+    font-size:1.9375rem;
+    font-weight:bold;
+    letter-spacing:0.04em;
+    padding:0.8125rem 1.875rem;
+    text-transform:uppercase;
+}
+
+@media (min-width: 42em) {
+    html {
+        font-size:16px;
+    }
+
+    div.container {
+        margin:25vh 5% 0;
+    }
+}
+
+@media (min-width: 70em) {
+    html {
+        font-size:16px;
+    }
+
+    div.container {
+        margin:30vh 15% 0;
+    }
+
+}
